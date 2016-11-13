@@ -1,0 +1,67 @@
+body {
+	font-family: 'Oxygen', sans-serif;
+}
+
+/**HEADER**/
+#header-nav {
+	background-color: #8BACFF;
+	border: 1px solid;
+}
+
+.navbar-brand h1 {
+	margin: 0px;
+	line-height: .75;
+}
+
+.navbar-header {
+	padding-bottom: 20px;
+}
+
+#nav-list {
+	text-align: center;
+	border:0;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+
+@media (max-width: 767px) {
+
+	#nav-list {
+		background-color: #fff;
+	}
+	#collapsable-nav {
+		background-color: #fff;
+		padding: 0px;
+	}
+
+	.menu-category {
+		margin-left: 35px;
+		margin-right: 35px;
+	}
+
+}
+
+#nav-list li {
+	border: 1px black solid;
+}
+
+
+
+
+/**MENU ITEMS**/
+
+#menu-h1 {
+	margin-bottom: 30px;
+}
+
+.menu-cat-title {
+	text-align: center;
+	padding-bottom: 15px;
+	font-size: 1.5em;
+}
+
+.menu-category {
+	background-color: #8BACFF;
+	height: 1000px;
+}
